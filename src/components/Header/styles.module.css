@@ -1,0 +1,9 @@
+@import '../../assets/css/main.css';
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+
+} 
