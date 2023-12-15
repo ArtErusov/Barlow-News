@@ -3,15 +3,22 @@
 :root{
     --black: #0C141B;
     --gray-: #525D65;
-    --gray-light: #94A1AB;
+    --gray-blue: #94A1AB;
+    --gray-light: #EFF2F4;
     --white: #FFFFFF;
     --red: #BF0021;
     --red-light: #DC1327;
  }
 
- * {
+* {
     color: var(--black);
     font-size: 18px;
     font-weight: 500;
     font-family: 'Barlow', sans-serif;
+ }
+
+
+ .container{
+   max-width: 1400px;
+   margin: 0 auto;
  }

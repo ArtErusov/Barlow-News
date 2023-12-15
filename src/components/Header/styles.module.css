@@ -2,8 +2,44 @@
 
 
 .header {
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
-
 } 
+
+.header__left{
+    display: flex;
+}
+
+/* -------------bottom--------------------------- */
+
+.bottom{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+.bottom__selector{
+    display: flex;   
+}
+.bottom__selector p{
+    padding: 5px 10px; 
+    background-color: var(--gray-light);
+    border-radius: 30px;
+    font-weight: 400; 
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bottom__selector p:hover{ 
+    background-color: var(--red-light); 
+    color: var(--white); 
+}
+
+/* -------------search--------------------------- */
+.search__input{
+    border: 1px solid var(--gray-blue);
+    border-radius: 30px ;
+    padding: 5px 10px; 
+    width: 360px;
+}
