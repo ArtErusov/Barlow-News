@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-const NewBanner = (props) => {
+const NewBanner = () => {
     return(
         <div className={styles.header}>
            {/* <h3 className={styles.title}>{props.item.title}</h3> */}

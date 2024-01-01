@@ -9,7 +9,7 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.header__left}>
                 <p>{formatDate(new Date())}</p>
-                <p>city ​​and weather</p>
+                <p>city and weather</p>
             </div>
            <Logotipe />
            <div className={styles.header__right}>

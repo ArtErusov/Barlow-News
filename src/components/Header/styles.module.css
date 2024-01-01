@@ -8,9 +8,12 @@
 } 
 
 .header__left{
-    display: flex;
+    display: flex; 
 }
 
+.header__left p{
+    margin-right: 10px; 
+}
 /* -------------bottom--------------------------- */
 
 .bottom{
@@ -21,20 +24,32 @@
 .bottom__selector{
     display: flex;   
 }
-.bottom__selector p{
+.bottom__selector_p{
     padding: 5px 10px; 
     background-color: var(--gray-light);
     border-radius: 30px;
     font-weight: 400; 
     margin-right: 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transform: 0.5s;
+}
+.bottom__selector_active{
+    padding: 5px 10px; 
+    background-color: var(--red);
+    border-radius: 30px;
+    font-weight: 600; 
+    margin-right: 20px;
+    cursor: pointer;
+    color: var(--white); 
+
 }
 
-.bottom__selector p:hover{ 
+.bottom__selector_p:hover{ 
     background-color: var(--red-light); 
     color: var(--white); 
 }
+
+
 
 /* -------------search--------------------------- */
 .search__input{
@@ -43,3 +58,4 @@
     padding: 5px 10px; 
     width: 360px;
 }
+
