@@ -5,9 +5,12 @@ import Main from './pages/main/main';
 import NewBanner from './components/newBanner/NewBanner';
 
 function App() {
+
+  const newsCategories = ["all", "business", "technology", "regionall"]  
+
   return (
     <div className='container'>
-      <Header />
+      <Header newsCategories={newsCategories} />
       <Main />
       <NewBanner />
     </div>

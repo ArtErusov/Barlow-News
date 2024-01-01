@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { formatDate } from './components/FormatDate';
 import styles from './styles.module.css';
 import Logotipe from '../../assets/css/svg/Logotipe';
 import HeaderBottom from './HeaderBottom';
 import React from 'react';
 
-const Header = () => {
+const Header = (props) => {
     return (<React.Fragment>
         <header className={styles.header}>
             <div className={styles.header__left}>
@@ -17,7 +18,7 @@ const Header = () => {
                 <a href="">info</a>
             </div>
         </header>
-        <HeaderBottom />
+        <HeaderBottom newsCategories={props.newsCategories}/>
     </React.Fragment>);
 }
 
