@@ -1,11 +1,14 @@
-import styles from './styles.module.css';
+import Separator from '../../components/UI/separator/Separator';
+import MainNews from './components/mainNews/mainNews';
+import React from 'react';
 
 const Main = () => {
     return(
-        <main className={styles.main}>
-            Привет жестокий мир
-        </main>
+    <React.Fragment>
+        <MainNews/>
+        <Separator/>
+    </React.Fragment>
     )
-}
+};
 
 export default Main;

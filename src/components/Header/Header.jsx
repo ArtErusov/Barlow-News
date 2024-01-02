@@ -7,7 +7,7 @@ import React from 'react';
 
 const Header = (props) => {
     return (<React.Fragment>
-        <header className={styles.header}>
+        <header className={styles.header + ' ' + styles.container}>
             <div className={styles.header__left}>
                 <p>{formatDate(new Date())}</p>
                 <p>city and weather</p>

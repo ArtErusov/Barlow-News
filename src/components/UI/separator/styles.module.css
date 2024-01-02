@@ -1,0 +1,8 @@
+@import '../../../assets/css/main.css';
+
+.separator{
+    background-color: var(--gray-light);
+    height: 1px;
+    width: 100%;
+    margin: 20px 0 50px;
+}

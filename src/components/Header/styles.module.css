@@ -76,3 +76,11 @@
     width: 360px;
 }
 
+/* ------------------divider---------------------- */
+
+.bottom__divider{
+    background-color: var(--gray-light);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;    
+}

@@ -9,16 +9,17 @@ const HeaderBottom = (props) => {
 const [activeIndex, setActiveIndex] = React.useState(0)
    
 
-    return(
-       <div className={styles.bottom}>
+return<React.Fragment>
+    <div className={styles.bottom + ' ' + styles.container}>
         <div className={styles.bottom__selector}>
-            {props.newsCategories.map((item, index) =>
-                <p key={index} onClick={() => setActiveIndex(index)} className = { activeIndex === index ? styles.bottom__selector_active : styles.bottom__selector_p}>{item}</p>
-            )}
+        {props.newsCategories.map((item, index) =>
+            <p key={index} onClick={() => setActiveIndex(index)} className = { activeIndex === index ? styles.bottom__selector_active : styles.bottom__selector_p}>{item}</p>
+        )}
         </div>    
-            <HeaderSearch />
-       </div>
-    )
-}
+    <HeaderSearch />
+    </div>
+    <div className={styles.bottom__divider}></div>  
+</React.Fragment>
+};
 
 export default HeaderBottom;
