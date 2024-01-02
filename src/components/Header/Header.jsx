@@ -12,9 +12,12 @@ const Header = (props) => {
                 <p>{formatDate(new Date())}</p>
                 <p>city and weather</p>
             </div>
-           <Logotipe />
+           <div className={styles.header__logo}>
+                <Logotipe />
+            </div>
            <div className={styles.header__right}>
                 {/* <Link to=''>info</Link> */}
+                <a href="">finances</a>
                 <a href="">info</a>
             </div>
         </header>
