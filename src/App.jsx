@@ -1,5 +1,5 @@
 import './assets/css/main.css';
-
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './pages/main/main';
 import React from 'react';
@@ -12,6 +12,7 @@ function App() {
     <React.Fragment>
       <Header />
       <Main  newsCategories={newsCategories}/>
+      <Footer/>
     </React.Fragment>
   )
 }
