@@ -1,0 +1,32 @@
+@import '../../../../../../assets/css/main.css';
+
+.component{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+font-size: 86px;
+font-weight: 600;
+}
+
+.icon{
+    width: 81px;
+    height: 81px;
+    border-radius: 100px;
+    transition: 0.8s;
+}
+
+.icon:hover{
+    background-color: var(--red);
+}
+
+.icon svg{
+    margin-top: 4px;
+    width: 56px;
+    height: 44px;
+    transition: 0.8s;
+}
+
+.icon svg:hover{
+    fill: var(--white);
+}
