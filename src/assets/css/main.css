@@ -2,7 +2,7 @@
 
 :root{
     --black: #0C141B;
-    --gray-: #525D65;
+    --gray: #525D65;
     --gray-blue: #94A1AB;
     --gray-light: #EFF2F4;
     --white: #FFFFFF;
@@ -15,8 +15,11 @@
     font-size: 18px;
     font-weight: 500;
     font-family: 'Barlow', sans-serif;
+    
  }
-
+/* body{
+  background-color: #EFEFEF;
+} */
 
  .container{
    max-width: 1400px;

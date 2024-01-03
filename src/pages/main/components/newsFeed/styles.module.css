@@ -1,0 +1,35 @@
+@import '../../../../assets/css/main.css';
+
+/* -------------selector--------------------------- */
+.selector{
+    display: flex;   
+}
+
+.selector_p{
+    padding: 5px 10px; 
+    background-color: var(--gray-light);
+    border-radius: 30px;
+    font-weight: 400; 
+    margin-right: 20px;
+    cursor: pointer;
+    transform: 0.5s;
+    user-select:none;
+}
+
+.selector_active{
+    padding: 5px 10px; 
+    background-color: var(--red);
+    border-radius: 30px;
+    font-weight: 600; 
+    margin-right: 20px;
+    cursor: pointer;
+    color: var(--white); 
+    user-select:none;
+}
+
+.selector_p:hover{ 
+    background-color: var(--gray); 
+    color: var(--white); 
+}
+
+

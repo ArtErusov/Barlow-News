@@ -1,11 +1,9 @@
-/* eslint-disable react/prop-types */
 import { formatDate } from './components/FormatDate';
 import styles from './styles.module.css';
 import Logotipe from '../../assets/css/svg/Logotipe';
-import HeaderBottom from './HeaderBottom';
 import React from 'react';
 
-const Header = (props) => {
+const Header = () => {
     return (<React.Fragment>
         <header className={styles.header + ' ' + styles.container}>
             <div className={styles.header__left}>
@@ -16,12 +14,11 @@ const Header = (props) => {
                 <Logotipe />
             </div>
            <div className={styles.header__right}>
-                {/* <Link to=''>info</Link> */}
                 <a href="">finances</a>
                 <a href="">info</a>
             </div>
         </header>
-        <HeaderBottom newsCategories={props.newsCategories}/>
+    <div className={styles.separator}></div>    
     </React.Fragment>);
 }
 

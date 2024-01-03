@@ -11,8 +11,8 @@ function App() {
 
   return (
     <React.Fragment>
-      <Header newsCategories={newsCategories} />
-      <Main />
+      <Header />
+      <Main  newsCategories={newsCategories}/>
       <NewBanner />
     </React.Fragment>
   )

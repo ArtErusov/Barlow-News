@@ -2,7 +2,7 @@
 
 
 .header {
-    /* margin-top: 5px; */
+    margin-top: 5px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -29,44 +29,6 @@
     width: 100%; 
     justify-content: flex-end;
 }
-/* -------------bottom--------------------------- */
-
-.bottom{
-    display: flex;
-    margin-top: 8px;
-    justify-content: space-between;
-}
-.bottom__selector{
-    display: flex;   
-}
-.bottom__selector_p{
-    padding: 5px 10px; 
-    background-color: var(--gray-light);
-    border-radius: 30px;
-    font-weight: 400; 
-    margin-right: 20px;
-    cursor: pointer;
-    transform: 0.5s;
-    user-select:none;
-}
-.bottom__selector_active{
-    padding: 5px 10px; 
-    background-color: var(--red);
-    border-radius: 30px;
-    font-weight: 600; 
-    margin-right: 20px;
-    cursor: pointer;
-    color: var(--white); 
-    user-select:none;
-
-}
-
-.bottom__selector_p:hover{ 
-    background-color: var(--red-light); 
-    color: var(--white); 
-}
-
-
 
 /* -------------search--------------------------- */
 .search__input{
@@ -76,11 +38,10 @@
     width: 360px;
 }
 
-/* ------------------divider---------------------- */
-
-.bottom__divider{
+/* -------------separator--------------------------- */
+.separator{
     background-color: var(--gray-light);
     height: 1px;
     width: 100%;
-    margin-top: 10px;    
+    margin-top:5px;
 }
