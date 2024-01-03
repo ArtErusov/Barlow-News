@@ -1,5 +1,42 @@
 @import '../../../../assets/css/main.css';
 
-.main{
-    color: #ff0000;
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news__title{
+    font-size: 86px;
+    font-weight: 700; 
+    max-width: 86%;
+}
+
+.news__btn{
+    margin-top: 16px;
+    width: 140px;
+    height: 140px;
+    border-radius: 1000px;
+    background-color: var(--white);
+    transition: 0.8s;
+}
+.news__btn:hover{
+    background-color: var(--red);
+}
+
+
+.news__btn svg{
+    width: 99px;
+    height: 74px;
+    fill: var(--black);
+    transition: 0.8s;
+    
+}
+
+.news__btn svg:hover{
+    fill: var(--white);
+}
+
+.img{
+ margin-top: 16px;
 }
